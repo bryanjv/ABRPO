@@ -1,13 +1,28 @@
-.navbar{
-    background-color: #FBF2CF !important;
+.navbar-custom{
+    background-color: #FD841F;
 }
 
-body{
-    background-color: #FBF2CF !important;
+main{
+    background-color: #C6EBC5 !important;
+}
+
+.carousel-inner>.active{
+    /*margin: 5px;*/
+    display: flex;
+    justify-content: center;
+    height: 400px;
 }
 
 .title{
     text-align: center;
+    background-color: #E14D2A;
 }
 
+.navbar{
+    border: 2px solid #662D91;
+    border-radius:0;
+
+}
 /*FA7070 FBF2CF C6EBC5 A1C298 */
+
+/*E14D2A FD841F 3E6D9C 001253*/
