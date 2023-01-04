@@ -9,5 +9,18 @@ body{
 .title{
     text-align: center;
 }
+/** base */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/** slider */
+
+
+
+
 
 /*FA7070 FBF2CF C6EBC5 A1C298 */
