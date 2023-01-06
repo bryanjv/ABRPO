@@ -16,7 +16,7 @@
 <body>
   <header></header>
   <main>
-    <form action="/my-handling-form-page" method="post">
+    <form name="contactame" action="/my-handling-form-page" method="post">
       <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Nombre</label>
       <input type="email" class="form-control" id="exampleFormControlInput1">
@@ -27,14 +27,15 @@
     </div>
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea name= "comentarios" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <button type="button">enviar</button>
+    <button onclick= "botonalerta()" type="button">enviar</button>
     </form>
   </main>
   <footer>
     <a href="/cachureando.html">Regresar al inicio</a>
   </footer> 
+  <script src="./script/contacto.js"></script>
 </body>
 </html>
 
