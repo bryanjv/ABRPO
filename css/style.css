@@ -23,6 +23,21 @@ main{
     border-radius:0;
 
 }
+
+.carousel{
+    width: 75%;
+}
+
+.card{
+    display: inline-block;
+    width: 25%;
+}
+
+/*#contenedor_cartas{
+
+}*/
+
+
 /*FA7070 FBF2CF C6EBC5 A1C298 */
 
 /*E14D2A FD841F 3E6D9C 001253*/
