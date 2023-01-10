@@ -1,9 +1,14 @@
+header{
+    margin: 0%;
+}
+
 .navbar-custom{
-    background-color: #FD841F;
+    background-color: #FD841F !important;
 }
 
 main{
     background-color: #C6EBC5 !important;
+    margin: 0px;
 }
 
 .carousel-inner>.active{
@@ -21,23 +26,31 @@ main{
 .navbar{
     border: 2px solid #662D91;
     border-radius:0;
+    margin: 0px;
+}
+
+.contenedor_carrusel{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
 
 }
 
-.carousel{
-    width: 75%;
+#contenedor_cartas{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
 }
 
 .card{
-    display: inline-block;
-    width: 25%;
+    display:inline-block;
+    width: 30%;
 }
 
-/*#contenedor_cartas{
-
-}*/
-
-
+footer{
+    background-color: blue;
+    color: white;
+}
 /*FA7070 FBF2CF C6EBC5 A1C298 */
 
 /*E14D2A FD841F 3E6D9C 001253*/
