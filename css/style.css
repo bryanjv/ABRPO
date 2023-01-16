@@ -69,8 +69,12 @@ body{
 }
 
 footer{
-    background-color: blue;
-    color: white;
+    margin: 30px;
+
+}
+a{
+    color: black;
+    font-size: x-large;
 }
 
 .button_especial {
